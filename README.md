@@ -1,23 +1,46 @@
 # Regex
 
-No spaces
+## Allow Everything
+Except spaces
 ```regex
-^[^ ]*$
+^[^ ]+$
 ```
 
-No spaces, no new lines
+Except spaces & new lines
 ```regex
-^[^\n ]*$
+^[^\n ]+$
 ```
 
-Only uppercase 
+Except the word "hello"
+```regex
+^[^hello]+$
+```
+
+## Only Allow
+Uppercase alphabets 
 ```regex
 ^[A-Z]+$
 ```
 
-Product code only uppercase hyphen and underscores
+Numbers 
+```regex
+^[0-1]+$
+```
+
+Alphanumeric uppercase & lowercase and spaces
+```regex
+^[a-zA-z0-1 ]+$
+```
+
+Uppercase alphabets with hyphens and underscores
 ```regex
 ^[A-Z-_]+$
+```
+
+## String contains
+Match a string in between another string
+```regex
+string
 ```
 
 
