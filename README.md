@@ -44,6 +44,13 @@ string
 ```
 
 
+## PHP Storm
+Replace custom attributes with anything inside of them
+```regex
+employee-id="[^"]*"
+```
+
+
 
 
 
