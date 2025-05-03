@@ -50,6 +50,11 @@ Replace custom attributes with anything inside of them
 employee-id="[^"]*"
 ```
 
+Remove all dark: classes
+```regex
+\s?dark:[^\s"']+
+```
+
 
 
 
