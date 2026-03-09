@@ -55,6 +55,11 @@ Remove all dark: classes
 \s?dark:[^\s"']+
 ```
 
+Remove all dark: classes and their class & dark classes might end with ' too
+```regex
+\s*dark:[^\s"'<>]+
+```
+
 
 
 
